@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Stub SleepScorePredictor Core ML model.
+     Replace this file with a trained model generated via coremltools.
+ -->
+<mlmodel>
+    <description>
+        <input name="duration" type="double"/>
+        <input name="deepPct" type="double"/>
+        <input name="remPct" type="double"/>
+        <input name="awakePct" type="double"/>
+        <output name="score" type="double"/>
+        <metadata>
+            <author>SleepSense</author>
+            <shortDescription>Stub sleep score predictor model. Replace with trained model.</shortDescription>
+        </metadata>
+    </description>
+</mlmodel>

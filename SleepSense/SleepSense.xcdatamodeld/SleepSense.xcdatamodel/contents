@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-    </entity>
-    <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
-    </elements>
+	<entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+		<attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+	</entity>
+	<entity name="SleepEntry" representedClassName="SleepEntry" syncable="YES" codeGenerationType="class">
+		<attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+		<attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+		<attribute name="totalSleep" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+		<attribute name="deepSleep" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+		<attribute name="remSleep" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+		<attribute name="awakeMinutes" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+		<attribute name="sleepScore" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+		<attribute name="notes" optional="YES" attributeType="String"/>
+	</entity>
+	<elements>
+		<element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+		<element name="SleepEntry" positionX="120" positionY="-18" width="160" height="128"/>
+	</elements>
 </model>

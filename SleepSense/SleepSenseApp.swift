@@ -14,6 +14,9 @@ struct SleepSenseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    SyncService.shared.syncLastNight(completion: nil)
+                }
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
