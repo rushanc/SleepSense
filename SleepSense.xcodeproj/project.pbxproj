@@ -49,7 +49,8 @@
 		0E8415A12EC931F7008FB67A /* SleepSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8415A52EC931F7008FB67A /* SleepSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseUITests.swift; sourceTree = "<group>"; };
 		0E8415A72EC931F7008FB67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
+		0E8415B32EC931F7008FB67A /* SleepSense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepSense.entitlements; sourceTree = "<group>"; };
+	/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E84157D2EC931F3008FB67A /* Frameworks */ = {
@@ -106,6 +107,7 @@
 				0E8415912EC931F6008FB67A /* Info.plist */,
 				0E84158E2EC931F6008FB67A /* SleepSense.xcdatamodeld */,
 				0E8415892EC931F6008FB67A /* Preview Content */,
+				0E8415B32EC931F7008FB67A /* SleepSense.entitlements */,
 			);
 			path = SleepSense;
 			sourceTree = "<group>";
@@ -429,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SleepSense/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SleepSense/Info.plist;
+				CODE_SIGN_ENTITLEMENTS = SleepSense/SleepSense.entitlements;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +453,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SleepSense/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SleepSense/Info.plist;
+				CODE_SIGN_ENTITLEMENTS = SleepSense/SleepSense.entitlements;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

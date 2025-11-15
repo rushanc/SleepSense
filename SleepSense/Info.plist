@@ -46,5 +46,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>SleepSense needs access to your sleep data to analyze and improve your sleep quality.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>SleepSense stores calculated sleep scores and notes if permission is granted.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Motion data access description placeholder.</string>
 </dict>
 </plist>
