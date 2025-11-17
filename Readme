@@ -1,0 +1,67 @@
+# 📱 SleepSense  
+### *AI-Powered Sleep Tracking App using HealthKit, CoreML, SwiftUI & Core Data*
+
+SleepSense is an iOS application designed to analyze a user’s sleep quality, generate intelligent insights, and provide personalized recommendations.  
+It integrates **HealthKit**, **Machine Learning**, and modern **SwiftUI UI** components to deliver a smart, data-driven sleep tracking experience.
+
+---
+
+## 🚀 Features
+
+### 💤 1. Sleep Tracking with HealthKit  
+- Reads Sleep Analysis data (in-bed, asleep, awake)  
+- Fetches heart rate and related sleep metrics  
+- Secure, Apple-approved permissions flow  
+
+### 🤖 2. AI Sleep Score Prediction (CoreML)  
+- Predicts a personalized Sleep Score (0–100)  
+- Works offline using on-device ML  
+- Generates sleep recommendations based on patterns  
+
+### 💾 3. Local Data Storage with Core Data  
+- Stores sleep entries  
+- Saves user notes  
+- Maintains weekly/monthly history  
+- Works offline without internet  
+
+### 🎨 4. Beautiful SwiftUI Interface  
+- Custom animated **SleepRing**  
+- Dark Mode supported  
+- Dynamic Type (accessibility) compatible  
+- Smooth navigation between multiple screens  
+
+### 🔄 5. Automatic Sync  
+- Fetches new HealthKit sleep data  
+- Processes it in the background  
+- Updates visuals instantly  
+
+---
+
+## 📁 Project Structure (MVVM Architecture)
+
+SleepSense
+│
+├── Views/ → All UI screens (Dashboard, Analysis, Recommendations, Settings)
+├── ViewModels/ → Handles business logic for each view
+├── Models/ → Data models and ML model structures
+├── Services/ → HealthKit, Core Data, ML, and Sync services
+├── Resources/ → Assets, Info.plist, CoreData model, entitlements
+├── SleepSenseTests/ → Unit tests
+└── SleepSenseUITests/ → UI tests
+
+## 🛠️ Technologies Used
+
+### **Programming Language**
+- Swift 5
+
+### **Frameworks**
+- **SwiftUI** – Declarative UI framework  
+- **HealthKit** – Access & analyze sleep data  
+- **CoreML** – Machine Learning predictions  
+- **Core Data** – Persistent local storage  
+- **Combine** – Reactive data flows  
+- **XCTest** – Unit & UI testing  
+
+
+
+
